@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="98a527f6-ce44-4c6e-a055-f115fdf82c60"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SelectOperation"
+	namespace="POC_WinCalculator">
+	</codegen>
+	<variables>
+		<var
+		id="871608bd-1331-4ab3-9b56-fbabfa2f0ae0"
+		name="operation">
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="205373f3-c428-43c7-ae86-f611c48b0d21"
+		sx="1411"
+		sy="638"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1e522da6-152f-4cf5-b466-1e5da19fc070"
+			sourcename="Recorder">
+				<path>
+					/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/container[@automationid='StandardOperators']/button[@automationid=$operation]
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="684a820c-03bf-4aee-aec4-b258599f9c46"
+	name="POC_WinCalculatorRepository"
+	relativepath="POC_WinCalculatorRepository.rxrep">
+		<codegen
+		classname="POC_WinCalculatorRepository"
+		namespace="POC_WinCalculator">
+		</codegen>
+		<rootfolder
+		id="689ea1e5-0d7f-4346-9489-e9719b0c17a3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SelectOperation.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

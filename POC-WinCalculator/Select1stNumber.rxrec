@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ba2cefa3-578b-45bc-875e-7b97dc0d0e52"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="EnterNumber1"
+	namespace="POC_WinCalculator">
+	</codegen>
+	<variables>
+		<var
+		id="838d704e-b353-4fa2-97e5-0b7f9c013489"
+		name="num1">
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="55ec129a-39dc-44c1-91bb-a9e683c25c4b"
+		sx="1089"
+		sy="723"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="16f7c44b-2654-4cb3-a406-2c5b2519380a"
+			sourcename="Recorder">
+				<path>
+					/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/container[@automationid='NumberPad']/button[@automationid=$num1]
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="684a820c-03bf-4aee-aec4-b258599f9c46"
+	name="POC_WinCalculatorRepository"
+	relativepath="POC_WinCalculatorRepository.rxrep">
+		<codegen
+		classname="POC_WinCalculatorRepository"
+		namespace="POC_WinCalculator">
+		</codegen>
+		<rootfolder
+		id="689ea1e5-0d7f-4346-9489-e9719b0c17a3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Select1stNumber.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

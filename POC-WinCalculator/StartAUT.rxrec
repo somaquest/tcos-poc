@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="dbb7574c-43d1-4381-838c-884b4968389f"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="POC_WinCalculator">
+	</codegen>
+	<variables>
+		<var
+		id="5d7025ab-443c-4683-a6ed-525f1be2df47"
+		name="StartAutProcessIDVar">
+		</var>
+		<var
+		id="8a957341-2b7c-4326-b0b9-15d5096543b7"
+		name="AUT">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+				<binding
+				target="FileName"
+				variable="AUT">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files (x86)\Ranorex\Studio\Samples\Desktop\KeePass Sample\KeePassTestSuite\KeePass\KeePass.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="684a820c-03bf-4aee-aec4-b258599f9c46"
+	name="POC_WinCalculatorRepository"
+	relativepath="POC_WinCalculatorRepository.rxrep">
+		<codegen
+		classname="POC_WinCalculatorRepository"
+		namespace="POC_WinCalculator">
+		</codegen>
+		<rootfolder
+		id="689ea1e5-0d7f-4346-9489-e9719b0c17a3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

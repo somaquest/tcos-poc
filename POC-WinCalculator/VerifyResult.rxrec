@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2da5cb2a-0859-4c70-8063-02e69fae2304"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="VerifyResult"
+	namespace="POC_WinCalculator">
+	</codegen>
+	<variables>
+		<var
+		id="3f3ef15c-e8ac-408f-9b92-18761b34fce8"
+		name="result">
+			yourtext
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="5262e9fe-bd13-4736-9d32-b27cfeb3bbfc">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="result">
+				</binding>
+			</bindings>
+			<info
+			id="3d073390-8713-4302-a212-58f48d85c2ec"
+			sourcename="ElementTree">
+				<element
+				capabilities="uiautomation"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="1430,263,64,77"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						30
+					</attribute>
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="selectiontext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						30
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						NormalOutput
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						TextBlock
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Text
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						XAML
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						text
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						30
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						12744
+					</attribute>
+				</element>
+				<path>
+					/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/text[@automationid='CalculatorResults']/?/?/text[@automationid='NormalOutput']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="8bbfb464-cd97-425b-adf2-f10d4b0bf946">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACKAaQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDdoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiozOgcp8xK9dqE4/IUAS
+UUUUAFFIxCgliAB1JpsciyfdDfipH86AH0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRTJn8qF5MZ2KWx64oAfVeRZIPNmVlZSdxUjngeufb0qqmpzOoZLGRlPQgkj+VRtdXD5DWdw
+UJ5TPH/oOannRHPE1Qdy5BxkcGq0UzvKsZcYBPzgf6zHYdvr+ntB/aFwRj+z5cenP+FJ9um2hf7N
+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
+A//Z
+			</helperscreenshot>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				30
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="684a820c-03bf-4aee-aec4-b258599f9c46"
+	name="POC_WinCalculatorRepository"
+	relativepath="POC_WinCalculatorRepository.rxrep">
+		<codegen
+		classname="POC_WinCalculatorRepository"
+		namespace="POC_WinCalculator">
+		</codegen>
+		<rootfolder
+		id="689ea1e5-0d7f-4346-9489-e9719b0c17a3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		VerifyResult.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

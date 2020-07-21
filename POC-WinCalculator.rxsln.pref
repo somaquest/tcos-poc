@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{C08AE665-4037-4182-97D3-C6800232CBEE}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>838d704e-b353-4fa2-97e5-0b7f9c013489</string>
+      <string>2da5cb2a-0859-4c70-8063-02e69fae2304</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution POC-WinCalculator[POC-WinCalculator[]]]&#xD;&#xA;Solution POC-WinCalculator\POC-WinCalculator\POC_WinCalculator.rxtst&#xD;&#xA;Solution POC-WinCalculator" />
+  <StartupProject value="{C08AE665-4037-4182-97D3-C6800232CBEE}" />
+</Properties>

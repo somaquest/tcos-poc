@@ -1,0 +1,481 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>POC-WinCalculator</name>
+    </assembly>
+    <members>
+        <member name="T:POC_WinCalculator.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:POC_WinCalculator.CloseAUT.repo">
+            <summary>
+            Holds an instance of the POC_WinCalculatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:POC_WinCalculator.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:POC_WinCalculator.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="T:POC_WinCalculator.EnterNumber2">
+             <summary>
+            The EnterNumber2 recording.
+             </summary>
+        </member>
+        <member name="F:POC_WinCalculator.EnterNumber2.repo">
+            <summary>
+            Holds an instance of the POC_WinCalculatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.EnterNumber2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.EnterNumber2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:POC_WinCalculator.EnterNumber2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.EnterNumber2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:POC_WinCalculator.EnterNumber2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.EnterNumber2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.EnterNumber2.num2">
+            <summary>
+            Gets or sets the value of variable num2.
+            </summary>
+        </member>
+        <member name="T:POC_WinCalculator.POC_WinCalculatorRepository">
+            <summary>
+            The class representing the POC_WinCalculatorRepository element repository.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.POC_WinCalculatorRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the POC_WinCalculatorRepository element repository.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepository.num1">
+            <summary>
+            Gets or sets the value of variable num1.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepository.operation">
+            <summary>
+            Gets or sets the value of variable operation.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepository.num2">
+            <summary>
+            Gets or sets the value of variable num2.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepository.Calculator">
+            <summary>
+            The Calculator folder.
+            </summary>
+        </member>
+        <member name="T:POC_WinCalculator.POC_WinCalculatorRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder">
+            <summary>
+            The CalculatorAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Calculator  folder.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.Num_1">
+            <summary>
+            The Num_1 item.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.Num_1Info">
+            <summary>
+            The Num_1 item info.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.Operation">
+            <summary>
+            The Operation item.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.OperationInfo">
+            <summary>
+            The Operation item info.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.Num_2">
+            <summary>
+            The Num_2 item.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.Num_2Info">
+            <summary>
+            The Num_2 item info.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.Num5Button">
+            <summary>
+            The Num5Button item.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.Num5ButtonInfo">
+            <summary>
+            The Num5Button item info.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.TextContainer">
+            <summary>
+            The TextContainer item.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.TextContainerInfo">
+            <summary>
+            The TextContainer item info.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.EqualButton">
+            <summary>
+            The EqualButton item.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.EqualButtonInfo">
+            <summary>
+            The EqualButton item info.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.NormalOutput">
+            <summary>
+            The NormalOutput item.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.NormalOutputInfo">
+            <summary>
+            The NormalOutput item info.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.CalculatorResults">
+            <summary>
+            The CalculatorResults item.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.POC_WinCalculatorRepositoryFolders.CalculatorAppFolder.CalculatorResultsInfo">
+            <summary>
+            The CalculatorResults item info.
+            </summary>
+        </member>
+        <member name="T:POC_WinCalculator.EnterNumber1">
+             <summary>
+            The Select1stNumber recording.
+             </summary>
+        </member>
+        <member name="F:POC_WinCalculator.EnterNumber1.repo">
+            <summary>
+            Holds an instance of the POC_WinCalculatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.EnterNumber1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.EnterNumber1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:POC_WinCalculator.EnterNumber1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.EnterNumber1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:POC_WinCalculator.EnterNumber1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.EnterNumber1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.EnterNumber1.num1">
+            <summary>
+            Gets or sets the value of variable num1.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.Select1stNumber.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:POC_WinCalculator.SelectOperation">
+             <summary>
+            The SelectOperation recording.
+             </summary>
+        </member>
+        <member name="F:POC_WinCalculator.SelectOperation.repo">
+            <summary>
+            Holds an instance of the POC_WinCalculatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.SelectOperation.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.SelectOperation.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:POC_WinCalculator.SelectOperation.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.SelectOperation.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:POC_WinCalculator.SelectOperation.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.SelectOperation.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.SelectOperation.operation">
+            <summary>
+            Gets or sets the value of variable operation.
+            </summary>
+        </member>
+        <member name="T:POC_WinCalculator.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:POC_WinCalculator.StartAUT.repo">
+            <summary>
+            Holds an instance of the POC_WinCalculatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:POC_WinCalculator.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:POC_WinCalculator.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.StartAUT.AUT">
+            <summary>
+            Gets or sets the value of variable AUT.
+            </summary>
+        </member>
+        <member name="T:POC_WinCalculator.VerifyResult">
+             <summary>
+            The VerifyResult recording.
+             </summary>
+        </member>
+        <member name="F:POC_WinCalculator.VerifyResult.repo">
+            <summary>
+            Holds an instance of the POC_WinCalculatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.VerifyResult.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.VerifyResult.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:POC_WinCalculator.VerifyResult.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.VerifyResult.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:POC_WinCalculator.VerifyResult.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.VerifyResult.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.VerifyResult.result">
+            <summary>
+            Gets or sets the value of variable result.
+            </summary>
+        </member>
+        <member name="T:POC_WinCalculator.ViewResult">
+             <summary>
+            The ViewResult recording.
+             </summary>
+        </member>
+        <member name="F:POC_WinCalculator.ViewResult.repo">
+            <summary>
+            Holds an instance of the POC_WinCalculatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.ViewResult.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.ViewResult.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:POC_WinCalculator.ViewResult.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:POC_WinCalculator.ViewResult.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:POC_WinCalculator.ViewResult.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:POC_WinCalculator.ViewResult.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

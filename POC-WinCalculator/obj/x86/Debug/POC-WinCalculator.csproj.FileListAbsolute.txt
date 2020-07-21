@@ -1,0 +1,10 @@
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\POC-WinCalculator\POC-WinCalculator\bin\Debug\POC_WinCalculator.rxtmg
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\POC-WinCalculator\POC-WinCalculator\bin\Debug\POC_WinCalculator.rxtst
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\POC-WinCalculator\POC-WinCalculator\bin\Debug\POC-WinCalculator.exe.config
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\POC-WinCalculator\POC-WinCalculator\bin\Debug\POC-WinCalculator.xml
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\POC-WinCalculator\POC-WinCalculator\bin\Debug\POC-WinCalculator.exe
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\POC-WinCalculator\POC-WinCalculator\bin\Debug\POC-WinCalculator.pdb
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\POC-WinCalculator\POC-WinCalculator\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\POC-WinCalculator\POC-WinCalculator\obj\x86\Debug\POC-WinCalculator.csprojResolveAssemblyReference.cache
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\POC-WinCalculator\POC-WinCalculator\obj\x86\Debug\POC-WinCalculator.exe
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\POC-WinCalculator\POC-WinCalculator\obj\x86\Debug\POC-WinCalculator.pdb
